@@ -13,6 +13,16 @@
 		7B4542312428291F008020DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B4542302428291F008020DE /* Assets.xcassets */; };
 		7B4542342428291F008020DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B4542332428291F008020DE /* Preview Assets.xcassets */; };
 		7B4542372428291F008020DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4542352428291F008020DE /* LaunchScreen.storyboard */; };
+		7B45424024283FD1008020DE /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B45423F24283FD1008020DE /* ColorExt.swift */; };
+		7B45424224284005008020DE /* UIApplicationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B45424124284005008020DE /* UIApplicationExt.swift */; };
+		7B45424524284040008020DE /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B45424424284040008020DE /* Page.swift */; };
+		7B45424824284076008020DE /* PageViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B45424724284076008020DE /* PageViewContainer.swift */; };
+		7B45424A24284094008020DE /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B45424924284094008020DE /* PageView.swift */; };
+		7B45424C24284160008020DE /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B45424B24284160008020DE /* PageIndicator.swift */; };
+		7B45424E24284192008020DE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B45424D24284192008020DE /* LoginView.swift */; };
+		7B45425024284C3B008020DE /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B45424F24284C3B008020DE /* PageViewController.swift */; };
+		7B45425324284C88008020DE /* LCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B45425224284C88008020DE /* LCButton.swift */; };
+		7B45425524284C9A008020DE /* LCTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B45425424284C9A008020DE /* LCTextfield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		7B4542332428291F008020DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B4542362428291F008020DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B4542382428291F008020DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B45423F24283FD1008020DE /* ColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
+		7B45424124284005008020DE /* UIApplicationExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExt.swift; sourceTree = "<group>"; };
+		7B45424424284040008020DE /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		7B45424724284076008020DE /* PageViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewContainer.swift; sourceTree = "<group>"; };
+		7B45424924284094008020DE /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		7B45424B24284160008020DE /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
+		7B45424D24284192008020DE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7B45424F24284C3B008020DE /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		7B45425224284C88008020DE /* LCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCButton.swift; sourceTree = "<group>"; };
+		7B45425424284C9A008020DE /* LCTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTextfield.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +76,13 @@
 		7B4542292428291F008020DE /* starter */ = {
 			isa = PBXGroup;
 			children = (
+				7B45424624284055008020DE /* Views */,
+				7B4542432428402D008020DE /* Models */,
+				7B45423E24283FA6008020DE /* Extensions */,
 				7B45422A2428291F008020DE /* AppDelegate.swift */,
 				7B45422C2428291F008020DE /* SceneDelegate.swift */,
 				7B45422E2428291F008020DE /* ContentView.swift */,
+				7B45424F24284C3B008020DE /* PageViewController.swift */,
 				7B4542302428291F008020DE /* Assets.xcassets */,
 				7B4542352428291F008020DE /* LaunchScreen.storyboard */,
 				7B4542382428291F008020DE /* Info.plist */,
@@ -73,6 +97,44 @@
 				7B4542332428291F008020DE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B45423E24283FA6008020DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7B45423F24283FD1008020DE /* ColorExt.swift */,
+				7B45424124284005008020DE /* UIApplicationExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7B4542432428402D008020DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7B45424424284040008020DE /* Page.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7B45424624284055008020DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B45425124284C77008020DE /* Custom */,
+				7B45424724284076008020DE /* PageViewContainer.swift */,
+				7B45424924284094008020DE /* PageView.swift */,
+				7B45424B24284160008020DE /* PageIndicator.swift */,
+				7B45424D24284192008020DE /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7B45425124284C77008020DE /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				7B45425224284C88008020DE /* LCButton.swift */,
+				7B45425424284C9A008020DE /* LCTextfield.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +209,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B45422B2428291F008020DE /* AppDelegate.swift in Sources */,
+				7B45424A24284094008020DE /* PageView.swift in Sources */,
+				7B45425024284C3B008020DE /* PageViewController.swift in Sources */,
+				7B45424824284076008020DE /* PageViewContainer.swift in Sources */,
+				7B45424024283FD1008020DE /* ColorExt.swift in Sources */,
+				7B45424524284040008020DE /* Page.swift in Sources */,
 				7B45422D2428291F008020DE /* SceneDelegate.swift in Sources */,
 				7B45422F2428291F008020DE /* ContentView.swift in Sources */,
+				7B45425324284C88008020DE /* LCButton.swift in Sources */,
+				7B45424C24284160008020DE /* PageIndicator.swift in Sources */,
+				7B45424E24284192008020DE /* LoginView.swift in Sources */,
+				7B45425524284C9A008020DE /* LCTextfield.swift in Sources */,
+				7B45424224284005008020DE /* UIApplicationExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
